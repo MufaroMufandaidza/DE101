@@ -1,0 +1,33 @@
+Below are the steps I would follow in order to design a way to deliver 
+data that enables analytics.
+
+1.  Get a clear understanding of the expectations of the Analytics team;
+    this can be achieved by soliciting answers to the following questions.
+    - How much data will be used in the analysis process?
+    - What platforms/tools do they use in the analysis process?
+    - How many data sources do they use in the  analysis process?
+    - How frequently will the analysis take place?
+        -   Will there be need for real time data or batches of data analytics
+            predetermined times be sufficient?
+    - How many users will be using the analytics platform?
+
+2.  Decide on how data quality will be maintained as it passes through the pipeline;
+    this can be achieved by answering the following questions.
+    - What does an effective reconciliation strategy look like?
+    - What transformations will not be suitable for this application?
+
+3.  Decide on the best solution for hosting the data pipeline;
+    this can be achieved by answering to the following questions.
+    - Weigh the pros and cons of a cloud based solution vs on-premises.
+        -  Is there any existing infrastructure, if yes would be cost effective 
+            to utilize it?
+        -   How much time is available to perform a migration between solutions
+            if the need arises?
+    - Identify the classification of the data to be utilized
+        -   Is there a need to anonymize the data as it makes its way through the pipeline?
+        -   Are there any restrictions on where the data can be stored and/or moved to?
+    - How much transient data will need to be stored and for how long can it be kept?   
+
+Once these questions have been answered either through stakeholder engagement and through research.
+The next step will be to decide on the appropriate set of tools and technologies and designing an
+architecture to fulfil the needs of the analytics team.
