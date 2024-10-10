@@ -1,0 +1,6 @@
+#data_transformation_in_sql
+/data_transformation_in_sql/duckdb*
+/data_transformation_in_sql/tpch.db
+
+/data_transformation_in_sql/.ipynb_checkpoints/
+/data_transformation_in_sql/.venv/
